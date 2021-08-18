@@ -1,0 +1,199 @@
+@import 'https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css';
+
+.animate
+{
+    -webkit-animation-duration: 1s;                      animation-duration: 1s;  -webkit-animation-fill-mode: both;                  animation-fill-mode: both;
+}
+.one
+{
+    -webkit-animation-delay: .4s;            -moz-animation-delay: .4s;                      animation-delay: .4s;
+}
+.box
+{ font-family: 'helvetica';  float: left;  width: 150px;  height: 70px;  margin: 4px;  padding: 20px;  text-align: center;  text-transform: uppercase; color: white;  border-radius: 7px;
+    background: #23a3d3;
+}
+.bg-image
+{ position: relative;  height: 75vh;  resize: horizontal;  opacity: 55%;
+    background-color: #b2d7ea;  background-repeat: no-repeat; background-size: contain;
+}
+.b-example-divider
+{
+    height: 3rem;  border: solid rgba(0, 0, 0, .15);  border-width: 1px 0;  background-color: rgba(0, 0, 0, .1);  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@-webkit-keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+
+/*--keyframe pointer --*/
+.fadeIn
+{
+    -webkit-animation-name: fadeIn;                      animation-name: fadeIn;
+}
+.form-control-dark
+{
+    color: #fff;  border-color: var(--bs-gray); background-color: var(--bs-dark);
+}
+.form-control-dark:focus
+{
+    color: #fff;  border-color: #fff;  background-color: var(--bs-dark);  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi
+{
+    vertical-align: -.125em;  fill: currentColor;
+}
+
+.text-small
+{
+    font-size: 85%;
+}
+
+.dropdown-toggle
+{
+    outline: 0;
+}
+.b-example-divider
+{
+    height: 3rem;  border: solid rgba(0, 0, 0, .15);  border-width: 1px 0;  background-color: rgba(0, 0, 0, .1);  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi
+{
+    vertical-align: -.125em;  fill: currentColor;
+}
+
+.feature-icon
+{ font-size: 2rem;
+
+    display: inline-flex;  align-items: center;  justify-content: center;  width: 4rem;  height: 4rem;  margin-bottom: 1rem;  color: #fff;  border-radius: .75rem;
+}
+
+.icon-link
+{
+    display: inline-flex;  align-items: center;
+}
+.icon-link > .bi
+{
+    margin-top: .125rem;  margin-left: .125rem;  transition: transform .25s ease-in-out;  fill: currentColor;
+}
+.icon-link:hover > .bi
+{
+    transform: translate(.25rem);
+}
+
+.icon-square
+{ font-size: 1.5rem;
+
+    display: inline-flex;  align-items: center;  justify-content: center;  width: 3rem;  height: 3rem;  border-radius: .75rem;
+}
+
+.rounded-4
+{
+    border-radius: .5rem;
+}
+.rounded-5
+{
+    border-radius: 1rem;
+}
+
+.text-shadow-1
+{
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+.text-shadow-2
+{
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+.text-shadow-3
+{
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover
+{
+    background-repeat: no-repeat;  background-position: center center;  background-size: cover;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/** textos **/
+
+@-webkit-keyframes fadeInUp
+{
+    from
+    { -webkit-transform: translate3d(0, 100%, 0);                transform: translate3d(0, 100%, 0);
+
+        opacity: 0;
+    }
+
+    to
+    { -webkit-transform: none;                transform: none;
+
+        opacity: 1;
+    }
+}
+@keyframes fadeInUp
+{
+    from
+    { -webkit-transform: translate3d(0, 100%, 0);                transform: translate3d(0, 100%, 0);
+
+        opacity: 0;
+    }
+
+    to
+    { -webkit-transform: none;                transform: none;
+
+        opacity: 1;
+    }
+}
+
+.fadeInUp
+{
+    -webkit-animation-name: fadeInUp;                      animation-name: fadeInUp;
+}
+
+.icon
+{
+    display: inline-block;  width: 1em;  height: 1em;  stroke-width: 0;  stroke: currentColor;  fill: currentColor;
+}
+
+.ir-arriba
+{ font-size: 20px;  position: fixed;  right: 0;  bottom: 0;
+
+    display: inline-block;  padding: 20px;  cursor: pointer;  color: #fff;  background: #024959;  background: url('Arriba1.png');
+}
+.whatsapp
+{ font-size: 20px;  position: fixed;  bottom: 0;  left: 0;
+
+    display: inline-block;  padding: auto;  cursor: pointer;  position:above;
+}
+.algo{
+   background: linear-gradient(to right, #b2d7ea, white);
+     width: 100%;  resize: horizontal; background-repeat: no-repeat;
+ background-size: contain;
+}
