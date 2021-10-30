@@ -14,8 +14,8 @@
     background: #23a3d3;
 }
 .bg-image
-{ position: relative;  height: 75vh;  resize: horizontal;  opacity: 55%;
-    background-color: #80DEEA../examples/sticky-footer-navbar/;  background-repeat: no-repeat;
+{ position: absolute;  height: 75vh;  resize: horizontal;  opacity: 55%;
+    background-color: #b2d7ea;  background-repeat: no-repeat;
  background-size: contain;
 }
 .b-example-divider
@@ -183,6 +183,7 @@
 .icon
 {
     display: inline-block;  width: 1em;  height: 1em;  stroke-width: 0;  stroke: currentColor;  fill: currentColor;
+
 }
 
 .ir-arriba
@@ -196,9 +197,14 @@
     display: inline-block;  padding: auto;  cursor: pointer;  position:above;
 }
 .algo{
-   background: linear-gradient(to center, #0277bd, white);
-   width: 100%;  
-   resize: horizontal; 
-   background-repeat: no-repeat;
-   background-size: contain;
+   background: linear-gradient(to right, #b2d7ea, white);
+     width: 100%;  resize: horizontal; background-repeat: no-repeat;
+ background-size: contain;
+}
+.centrado{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
