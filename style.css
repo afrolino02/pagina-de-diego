@@ -14,9 +14,11 @@
     background: #23a3d3;
 }
 .bg-image
-{ position: relative;  height: 75vh;  resize: horizontal;  opacity: 55%;
-    background-color: #80DEEA../examples/sticky-footer-navbar/;  background-repeat: no-repeat;
- background-size: contain;
+{ position: relative;  height: 75vh; height: 75vh; resize: horizontal;  opacity: 55%;
+    background-color: #adbfc2;  background-repeat: no-repeat;
+    background-size: cover;
+ background-image: url('./sofa-gon.jpg');
+ 
 }
 .b-example-divider
 {
@@ -196,7 +198,7 @@
     display: inline-block;  padding: auto;  cursor: pointer;  position:above;
 }
 .algo{
-   background: linear-gradient(to center, #0277bd, white);
+   background: linear-gradient(to bottom, #0277bd, white);
    width: 100%;  
    resize: horizontal; 
    background-repeat: no-repeat;
